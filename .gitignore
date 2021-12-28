@@ -5,3 +5,8 @@
 # production
 /build
 
+# firebase files
+/.firebase
+.firebaserc
+firebase.json
+
