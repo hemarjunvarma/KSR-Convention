@@ -16,7 +16,7 @@ function AboutBrand() {
     let history = useHistory();
 
     const features = [
-        {img: features_pic_1, capt: 'Accommodates over 2500 guests'},
+        {img: features_pic_1, capt: 'Accommodates over 1500 guests'},
         {img: features_pic_2, capt: 'AC Hall and Open garden space'},
         {img: features_pic_3, capt: 'Very close to Outer Ring Road'},
         {img: features_pic_4, capt: 'Ample parking area'}

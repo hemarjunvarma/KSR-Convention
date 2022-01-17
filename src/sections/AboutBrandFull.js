@@ -24,7 +24,7 @@ function AboutBrandFull() {
     ]
 
     const features = [
-        {img: features_pic_1, capt: 'We provide a wide and spacious 5 acres of area which can accommodate over 2500 guests at a time.'},
+        {img: features_pic_1, capt: 'We provide a wide and spacious 5 acres of area which can accommodate over 1500 guests at a time.'},
         {img: features_pic_2, capt: 'Our venue consists of a large AC Hall that can accomodate upto 1500 guests and an open air space with lush green lawns for outdoor activities.'},
         {img: features_pic_3, capt: 'Our venue is very close to the Nehru Outer Ring Road and it is very well connected to the city by road.'},
         {img: features_pic_4, capt: 'We provide a large and safe vehicle parking area for you and your guests.'}
