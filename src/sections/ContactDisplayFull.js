@@ -27,16 +27,16 @@ function ContactDisplayFull() {
                     <div className={classes.buttons_div}>
                         <h3 className={classes.sub_heading}>Phone:</h3>
                         <Button img={call_img} color='#fff' bg='rgb(120,81,169,0.8)'
-                            text='+91&nbsp;73311&nbsp;06333' onclick={() => {call_phone('+917001106333');}} />
+                            text='+91&nbsp;73311&nbsp;07333' onclick={() => {call_phone('+917001107333');}} />
                         <Button img={call_img} color='#fff' bg='rgb(120,81,169,0.8)'
-                            text='+91&nbsp;73311&nbsp;06733' onclick={() => {call_phone('+917001107333');}} />
+                            text='+91&nbsp;73311&nbsp;06333' onclick={() => {call_phone('+917001106333');}} />
                     </div>
                     <div className={classes.buttons_div}>
                         <h3 className={classes.sub_heading}>Whatsapp:</h3>
                         <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
-                            text='+91&nbsp;73311&nbsp;06333' onclick={() => {open_whatsapp('917331106333');}} />
-                        <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
                             text='+91&nbsp;73311&nbsp;07333' onclick={() => {open_whatsapp('917331107333');}} />
+                        <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
+                            text='+91&nbsp;73311&nbsp;06333' onclick={() => {open_whatsapp('917331106333');}} />
                     </div>
                 </div>
                 <Form />

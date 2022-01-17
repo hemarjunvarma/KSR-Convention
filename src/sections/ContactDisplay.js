@@ -21,8 +21,8 @@ function ContactDisplay() {
                     <div className={classes.underline}></div>
                     <h3 className={classes.sub_heading}>Contact us and book your next event.</h3>
                     <div className={classes.phone_no_div}>
-                        <a href='tel:+917331106333'><h2 className={classes.phone_no}>+91&nbsp;73311&nbsp;06333</h2></a>
                         <a href='tel:+917331107333'><h2 className={classes.phone_no}>+91&nbsp;73311&nbsp;07333</h2></a>
+                        <a href='tel:+917331106333'><h2 className={classes.phone_no}>+91&nbsp;73311&nbsp;06333</h2></a>
                     </div>
                     <h3 className={classes.address}>
                         Sy.&nbsp;No:&nbsp;143/B, NH&nbsp;44, 
@@ -33,9 +33,9 @@ function ContactDisplay() {
                     <a href='https://ksrconvention.com/'><h3 className={classes.email}>www.ksrconvention.com</h3></a>
                     <div className={classes.buttons_div}>
                         <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
-                            text='+91&nbsp;73311&nbsp;06333' onclick={() => {open_whatsapp('917331106333');}} />
-                        <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
                             text='+91&nbsp;73311&nbsp;07333' onclick={() => {open_whatsapp('917331107333');}} />
+                        <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
+                            text='+91&nbsp;73311&nbsp;06333' onclick={() => {open_whatsapp('917331106333');}} />
                     </div>
                 </div>
                 <Form />

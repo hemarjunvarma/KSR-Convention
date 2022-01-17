@@ -16,11 +16,11 @@ import whatsapp_img from '../res/whatsapp.svg';
 function MainDisplay() {
 
     function call_phone() {
-        document.location.href = 'tel:+91 73311 06333';
+        document.location.href = 'tel:+91 73311 07333';
     }
 
     function open_whatsapp() {
-        window.open('https://wa.me/917331106333', '_blank');
+        window.open('https://wa.me/917331107333', '_blank');
     }
 
 
@@ -45,9 +45,9 @@ function MainDisplay() {
                 </Link>
                 <div className={classes.contact_container} >
                     <Button img={call_img} color='#fff' bg='rgb(120,81,169,0.8)'
-                        text='+91&nbsp;73311&nbsp;06333' onclick={call_phone} />
+                        text='+91&nbsp;73311&nbsp;07333' onclick={call_phone} />
                     <Button img={whatsapp_img} color='#fff' bg='rgb(37,211,102,0.8)' 
-                        text='+91&nbsp;73311&nbsp;06333' onclick={open_whatsapp} />
+                        text='+91&nbsp;73311&nbsp;07333' onclick={open_whatsapp} />
                 </div>
             </div></div>
         </div>
