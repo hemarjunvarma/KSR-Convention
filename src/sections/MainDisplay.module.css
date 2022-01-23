@@ -10,10 +10,17 @@
     background-repeat: no-repeat;
 }
 
+
+/*@media (max-width: ____) {
+
+}*/
+
+
 .display_container {
     width: 100%;
     height: 85vh;
 }
+
 .main_heading {
     font-size: 120px;
     font-family: 'Cinzel', serif;
